@@ -58,6 +58,7 @@ header nav li{
 }
 
 header .btn-contato button{
+    margin: 0 55px;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
