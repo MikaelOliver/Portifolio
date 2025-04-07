@@ -11,6 +11,9 @@ body{
     height: 100vh;
 }
 
+.flex {
+    display: flex;
+}
 
 
 .interface{
@@ -57,7 +60,7 @@ header nav li{
     padding: 0 40px;
 }
 
-header .btn-contato button{
+.btn-contato button{
     margin: 0 55px;
     padding: 10px 40px;
     font-size: 18px;
@@ -66,8 +69,58 @@ header .btn-contato button{
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+    transition: .2s;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #234449;
+    transform: scale(1.05);
 }
 
-header .btn-contato button:hover{
-    box-shadow: 0px 0px 8px #234449
+
+
+
+
+section.topo-do-site{
+    padding: 40px 4%;
 }
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #67cbda;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    width: 70%;
+    border-radius: 50%;
+    height: 50%;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+
