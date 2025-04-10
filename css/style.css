@@ -20,7 +20,7 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
-.logo img{
+.logo img, .logo-footer img{ 
     width: 100%;
     max-width: 150px;
     padding: 30px 20px;
@@ -210,8 +210,7 @@ section .sobre .flex{
     text-align: justify;
 
 }
-
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -273,9 +272,6 @@ section.portfolio .flex{
 }
 
 
-
-
-
 section.formulario{
     padding: 80px 4%;
 }
@@ -322,4 +318,31 @@ form .btn-enviar input[type="submit"]{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+}
+
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0px 0px 40px 12px #ffffff25;
+}
+
+footer .flex{
+    justify-content: space-between;
+
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda {
+    border-top:2px solid #67cbda;
+}
+
+footer .line-footer p i{
+    color: #67cbda;
+    font-size: 20px;
+}
+
+footer .line-footer p a{
+    color: #fff;
 }
